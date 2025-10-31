@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <div>
-        <nav class="navbar navbar-expand-lg header-container">
+      <div class="container-fluid p-0">
+             <div class="row"> 
+              <div class="col-sm-12">
+
+        <nav class="navbar navbar-expand-sm header-container">
   <div class="container-fluid">
     <Link class="navbar-brand"   to={'/'}>Blood Bank</Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +32,9 @@ const Header = () => {
     </div>
   </div>
 </nav>
+                      </div>
+                     </div>
+              </div>
     </div>
   )
 }
