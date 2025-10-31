@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import Header from '../components/Header'
 import about2 from '../../src/assets/images/about.png'
 import Footer from '../components/Footer'
@@ -46,7 +46,7 @@ const About = () => {
           </div>
           <div className="row">
 <div className="col-sm-6 py-2">
-              <img src={about2} alt="" className='about-image' style={{width:"500px"}} />
+              <img src={about2} alt="" className='about-image' style={{width:"500px "}} />
             </div>
   <div className="col-sm-6">
               <h4>Section Title 4</h4>
