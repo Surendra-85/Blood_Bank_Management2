@@ -1,0 +1,31 @@
+.header-container{
+  background: red;
+}
+.header-container a{
+  color: white;
+}
+.navbar-container{
+  position: relative;
+}
+.navbar-container  ul {
+  position: absolute ;
+  right: 10px;
+}
+.service-container{
+  background: red;
+ 
+  padding-inline: 20px;
+  padding-block: 20px;
+}
+.service-title{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-card{
+  display: flex;
+  justify-content: center;
+}
+.w-80{
+  width: 80%;
+}
